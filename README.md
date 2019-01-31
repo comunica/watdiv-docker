@@ -9,13 +9,13 @@ A Dockerfile for the [Waterloo SPARQL Diversity Test Suite (WatDiv)](https://dsg
 ## Install
 
 ```bash
-$ docker pull rubensworks/watdiv-docker
+$ docker pull comunica/watdiv
 ```
 
 ## Usage
 
 ```bash
-$ docker run --rm -it -v $(pwd)/output/:/output rubensworks/watdiv-docker -s 1 -q 10 -r 1
+$ docker run --rm -it -v $(pwd)/output/:/output comunica/watdiv -s 1 -q 10 -r 1
 ```
 
 This will create a dataset at `output/dataset.nt` and corresponding queries in `output/queries`.
