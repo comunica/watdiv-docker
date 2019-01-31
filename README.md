@@ -1,5 +1,7 @@
 # WatDiv Docker
 
+[![Docker Automated Build](https://img.shields.io/docker/automated/comunica/watdiv.svg)](https://hub.docker.com/r/comunica/watdiv/)
+
 A Dockerfile for the [Waterloo SPARQL Diversity Test Suite (WatDiv)](https://dsg.uwaterloo.ca/watdiv/).
 
 ## Requirements
